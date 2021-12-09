@@ -12,15 +12,15 @@
   <body>
     <section id="first_section">
       <h1>Kontakt</h1>
-      <h2>Kontakt os her</h2>
-      <h3>Ring til os</h3>
+    
+      <h2>Ring til os</h3>
       <p>Tlf. BLAAAAA</p>
-      <h3>På e-mail</h3>
+      <h2>På e-mail</h3>
       <p>
         Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre
         fra dig.
       </p>
-      <form>
+      <form name="kontakt" netlify>
         <!-- Formular-indhold -->
         <div class="form-felt">
           <label for="navn">Navn</label>
@@ -44,8 +44,37 @@
         <img src="img/kontaktansatte.jpg" alt="Et billede af de ansatte" />
       </figure>
     </section>
+    
+    </form>
+    <section id="second_section">
+      <h2>Book bord</h2>
+      <p>
+        Udfyld formularen for at booke bord. Vi glæder os til at se dig.
+      </p>
+<form name="kontakt" netlify>
+      <!-- Formular-indhold -->
+      <div class="form-felt">
+        <label for="navn">Navn</label>
+        <input type="text" id="navn" required />
+      </div>
 
-    <section id="second_section"></section>
+      <div class="form-felt">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-felt">
+        <label for="phone">Telefon nr.</label>
+        <input type="number" id="email" name="phone" required />
+      </div>
+
+      <div class="form-felt">
+        <label for="date">Dato</label>
+        <input type="date" id="email" name="date" required />
+      </div>
+
+      <button type="submit">Indsend</button>
+</section>
 
     <section id="third_section">
       <figure class="image">
