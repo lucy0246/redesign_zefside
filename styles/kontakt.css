@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
-/*styling af first_section så den er responsiv uden media*/
-#first_section form img {
+@media (min-width: 601px) {
+  section {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+/*styling af section så den er responsiv uden media*/
+.image {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 20px;
@@ -16,18 +22,21 @@
   width: 100%;
   object-fit: cover;
 }
+#third_section img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
 
 /*Styling af kontakt på mail delen*/
 form {
   padding: 2rem;
-  background: hsl(264 30% 96%);
+  background: orange;
   border-radius: 8px;
-
   /*laver gap mellem de to formularer/bokse*/
   display: grid;
   gap: 20px;
 }
-
 /*Layouter kontakt formular boksene*/
 label,
 input,
@@ -36,7 +45,6 @@ select,
 button {
   display: block;
 }
-
 /*Laver gap mellem overskrift til boks og selv boks*/
 .form-felt {
   display: grid;
