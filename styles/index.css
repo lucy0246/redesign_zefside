@@ -2,8 +2,11 @@ image {
   max-width: 100%;
 }
 
+/* --------------første section: splash billede og overskrift(h1)------------- */
+
 #first_section {
   width: 100%;
+  height: auto;
   background-size: cover;
   display: grid;
   place-items: center;
@@ -12,6 +15,21 @@ image {
 img,
 h1 {
   grid-area: 1/1;
+}
+
+/* -----------------anden section: tekst og billede-----------------*/
+
+#second_section article {
+  display: grid;
+}
+
+#second_section img {
+  max-width: 100%;
+  display: grid;
+}
+
+#second_section h2 {
+  text-align: center;
 }
 
 h1 {
