@@ -11,9 +11,9 @@
 }
 
 /*styling af section så den er responsiv uden media*/
-.image {
+#first_section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
 
@@ -22,6 +22,7 @@
   width: 100%;
   object-fit: cover;
 }
+
 #third_section img {
   height: auto;
   width: 100%;

@@ -10,12 +10,24 @@
     <link rel="stylesheet" href="styles/kontakt.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Forside</a>
+          </li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="omos.html">Om os</a></li>
+        </ul>
+      </nav>
+    </header>
     <section id="first_section">
       <h1>Kontakt</h1>
     
       <h2>Ring til os</h3>
-      <p>Tlf. BLAAAAA</p>
-      <h2>På e-mail</h3>
+      <p>Tlf. nr. BLAAAAA</p>
+      <h2>Skriv til os </h3>
       <p>
         Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre
         fra dig.
@@ -58,14 +70,19 @@
         <input type="text" id="navn" required />
       </div>
 
-      <div class="form-felt">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required />
+ <div class="form-felt">
+        <label for="number">Hvor mange bliver i?</label>
+        <input type="number" id="number" required />
       </div>
 
       <div class="form-felt">
         <label for="phone">Telefon nr.</label>
         <input type="number" id="email" name="phone" required />
+      </div>
+
+      <div class="form-felt">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
       </div>
 
       <div class="form-felt">
