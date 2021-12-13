@@ -1,3 +1,51 @@
+/*Generelt layout*/
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+}
+main section {
+  grid-column: 2/3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*Farverne og font family*/
+body {
+  background-color: #260401;
+}
+
+h1 {
+  color: black;
+  font-family: "Rock Salt", cursive;
+}
+
+h2,
+h3 {
+  font-family: "Walter Turncoat", cursive;
+  color: #f27830;
+}
+p,
+footer {
+  color: #f27830;
+  font-family: "Karma", serif;
+}
+
+/*Layout af Nav*/
 .links {
   display: inline;
   flex-flow: wrap;
@@ -16,18 +64,107 @@ ul {
   gap: 30px;
   list-style-type: none;
   padding: 10;
+  color: #f27830;
+}
+header nav ul a {
+  font-family: "Karma", serif;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #f27830;
+}
+header {
+  margin-bottom: 1rem;
 }
 
+nav a:hover {
+  color: #591202;
+}
+
+/*font-size i mobile-first*/
 h1 {
-  font-family: "Rock Salt", cursive;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 h2,
 h3 {
-  font-family: "Walter Turncoat", cursive;
+  font-size: 2rem;
 }
 
 p {
+  font-size: 1rem;
+}
+
+/*footer*/
+footer {
+  margin: 1rem;
   font-family: "Karma", serif;
+  font-size: 1rem;
+}
+
+/*Layout til media*/
+
+/*tablet version*/
+@media (min-width: 600px) {
+  section {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  h2,
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  header nav ul a {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  header {
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    font-size: 1.2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+/*web version*/
+@media (min-width: 992px) {
+  section {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2,
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  header nav ul a {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  header {
+    margin-bottom: 3rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }

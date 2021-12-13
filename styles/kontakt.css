@@ -11,13 +11,13 @@
 }
 
 /*styling af section så den er responsiv uden media*/
-#first_section {
+.section_wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
 
-#first_section img {
+.section_wrapper img {
   height: auto;
   width: 100%;
   object-fit: cover;
@@ -32,7 +32,7 @@
 /*Styling af kontakt på mail delen*/
 form {
   padding: 2rem;
-  background: orange;
+  background: #f39643;
   border-radius: 8px;
   /*laver gap mellem de to formularer/bokse*/
   display: grid;
