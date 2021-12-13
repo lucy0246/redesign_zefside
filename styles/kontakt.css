@@ -4,10 +4,8 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 601px) {
-  section {
-    grid-template-columns: 1fr 2fr;
-  }
+h1 {
+  color: #f27830;
 }
 
 /*styling af section så den er responsiv uden media*/
@@ -29,10 +27,13 @@
   object-fit: cover;
 }
 
-/*Styling af kontakt på mail delen*/
+/*Styling af form på mail og book bord delen*/
 form {
+  font-family: "Karma", serif;
+  color: #f27830;
   padding: 2rem;
   background: #f39643;
+  background-color: #591202;
   border-radius: 8px;
   /*laver gap mellem de to formularer/bokse*/
   display: grid;
@@ -52,4 +53,7 @@ button {
   gap: 10px;
 }
 
-/*styling af book bord delen*/
+form button {
+  color: #f27830;
+  background-color: black;
+}
