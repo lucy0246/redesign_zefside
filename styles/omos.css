@@ -9,3 +9,7 @@
   object-fit: cover;
   margin-top: 6rem;
 }
+h1 {
+  font-family: "Walter Turncoat", cursive;
+  color: #f27830;
+}
