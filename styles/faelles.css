@@ -21,6 +21,7 @@ main section {
 section {
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*Farverne og font family*/
@@ -71,6 +72,9 @@ header nav ul a {
   font-size: 1rem;
   color: #f27830;
 }
+header {
+  margin-bottom: 1rem;
+}
 
 nav a:hover {
   color: #591202;
@@ -104,6 +108,7 @@ footer {
   section {
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-bottom: 5rem;
   }
 
   h1 {
@@ -121,6 +126,9 @@ footer {
     font-weight: 400;
     font-size: 1.2rem;
   }
+  header {
+    margin-bottom: 2rem;
+  }
 
   footer {
     font-size: 1.2rem;
@@ -133,6 +141,7 @@ footer {
   section {
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-bottom: 10rem;
   }
   h1 {
     font-size: 5rem;
@@ -148,6 +157,9 @@ footer {
   header nav ul a {
     font-weight: 400;
     font-size: 1.5rem;
+  }
+  header {
+    margin-bottom: 3rem;
   }
 
   footer {
