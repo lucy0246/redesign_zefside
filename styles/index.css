@@ -16,7 +16,7 @@ image {
   height: 100vh;
   background-size: cover;
   background-position: 50% 50%;
-
+  margin: 0%;
   display: grid;
   place-content: center;
   /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
