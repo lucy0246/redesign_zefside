@@ -32,7 +32,7 @@
 /*Styling af kontakt på mail delen*/
 form {
   padding: 2rem;
-  background: orange;
+  background: #f39643;
   border-radius: 8px;
   /*laver gap mellem de to formularer/bokse*/
   display: grid;
