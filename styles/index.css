@@ -1,0 +1,58 @@
+image {
+  max-width: 100%;
+}
+
+/* --------------første section: splash billede og overskrift(h1)------------- */
+
+#first_section {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+img,
+h1 {
+  grid-area: 1/1;
+}
+
+/* -----------------anden section: tekst og billede-----------------*/
+
+#second_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#second_section article {
+  grid-column: 1/2;
+}
+
+#second_section img {
+  max-width: 100%;
+  grid-column: 2/3;
+}
+
+#second_section h2 {
+  text-align: center;
+}
+
+/* -----------------tredje section--------------------- */
+
+#thired_section img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Rock Salt", cursive;
+  font-size: 5rem;
+}
+
+h2,
+h3 {
+  font-family: "Walter Turncoat", cursive;
+}
+
+p {
+  font-family: "Karma", serif;
+}

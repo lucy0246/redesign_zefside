@@ -1,0 +1,12 @@
+* {
+  background-color: rgb(197, 98, 5);
+}
+#second_section,
+#third_section,
+#fourth_section {
+  display: flex;
+  justify-content: space-around;
+}
+#first_section {
+  margin-left: 600px;
+}
