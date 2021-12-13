@@ -8,7 +8,9 @@
     grid-template-columns: 1fr 2fr;
   }
 }
-
+h2 {
+  margin-bottom: 5%;
+}
 * {
   margin: 0px;
   padding: 0px;
