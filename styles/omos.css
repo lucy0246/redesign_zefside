@@ -12,6 +12,8 @@
 h1 {
   font-family: "Walter Turncoat", cursive;
   color: #f27830;
+  display: grid;
+  justify-content: center;
 }
 #second_section video {
   width: 100%;
