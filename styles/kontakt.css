@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-#first_section h1,
-h2,
-p {
+#first_section h1 {
   display: grid;
   color: #f27830;
   place-content: center;
