@@ -48,15 +48,21 @@ footer {
 .links {
   display: inline;
   flex-flow: wrap;
-  gap: 50px;
+
   list-style: none;
   padding: 12px;
   margin: 10px;
 }
+
 header nav ul {
-  max-width: 1200px;
-  margin: 0px;
-  justify-content: center;
+  display: flex;
+  gap: 1.25rem;
+  list-style-type: none;
+  padding: 0px;
+  overflow-x: auto;
+  margin: 2px;
+  place-content: center;
+  flex-flow: wrap;
 }
 ul {
   display: flex;
@@ -72,7 +78,7 @@ header nav ul a {
   color: #f27830;
 }
 header {
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 nav a:hover {
@@ -98,6 +104,11 @@ footer {
   margin: 1rem;
   font-family: "Karma", serif;
   font-size: 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 5px solid #f27830;
 }
 
 /*Layout til media*/
