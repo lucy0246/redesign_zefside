@@ -19,25 +19,9 @@ image {
   margin: 0%;
   display: grid;
   place-content: center;
-  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 }
-/* 
-img,
-h1 {
-  grid-area: 1/1;
-} */
 
 /* -----------------anden section: tekst og billede-----------------*/
-
-/* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
-  gap: 20px; */
-
-/* .velkommen img {
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-} */
 
 #second_section img {
   max-width: 100%;
@@ -66,6 +50,7 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
+
 @media (min-width: 600px) {
   section {
     margin-left: 5rem;
