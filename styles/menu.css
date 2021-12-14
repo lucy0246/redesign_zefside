@@ -1,11 +1,24 @@
 @media (min-width: 600px) {
   #second_section,
-  #third_section,
   #fourth_section {
     display: flex;
     justify-content: space-around;
   }
-  #first_section {
-    margin-left: 600px;
+  
+ 
+  #third_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
+  .text_wrapper {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  #third_section img {
+    grid-column: 2/3;
+  }
+
+h1 {
+  color: #f27830;
 }
