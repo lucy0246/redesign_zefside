@@ -4,8 +4,7 @@
     display: flex;
     justify-content: space-around;
   }
-  
- 
+
   #third_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,6 +18,11 @@
     grid-column: 2/3;
   }
 
-h1 {
-  color: #f27830;
+  h1 {
+    color: #f27830;
+  }
+  #first_section {
+    display: grid;
+    justify-content: center;
+  }
 }
