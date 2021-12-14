@@ -16,8 +16,12 @@
   }
   #third_section img {
     grid-column: 2/3;
+    margin-left: 80px;
+    max-width: 100%;
   }
-
+  img {
+    max-width: 40%;
+  }
   h1 {
     color: #f27830;
   }
@@ -25,4 +29,14 @@
     display: grid;
     justify-content: center;
   }
+}
+main {
+  justify-content: space-evenly;
+}
+
+h1 {
+  color: #f27830;
+}
+img {
+  max-width: 60%;
 }
