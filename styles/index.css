@@ -99,3 +99,33 @@ image {
     grid-row: 1/2;
   }
 }
+/*web version*/
+@media (min-width: 992px) {
+  section {
+    margin-bottom: 10rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2,
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  header nav ul a {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  header {
+    margin-bottom: 3rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
