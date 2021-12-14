@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
-h1 {
+#first_section h1,
+h2,
+p {
+  display: grid;
   color: #f27830;
+  place-content: center;
 }
 
 /*styling af section så den er responsiv uden media*/
